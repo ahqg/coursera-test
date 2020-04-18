@@ -1,0 +1,78 @@
+body {
+  font-size: 16px;
+  font-family: cursive;
+}
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+#header-nav .navbar-header {
+  height:70px
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: brown;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 5px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a{
+  height: 200px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list li {
+  border: 1px solid black;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+#nav-list a {
+  color: brown;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* End Header*/
+
+/* Main Content */
+#main-content h1 {
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.menuItem {
+  background-color: gray;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+.menuItem h3 {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+.menuItem .description {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.menuItem .description a span {
+  color: blue;
+}
+/* End Main Content*/
