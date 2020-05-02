@@ -31,7 +31,8 @@
             {name: 'cookies', quantity: '10 bags'},
             {name: 'chips', quantity: '5 bags'},
             {name: 'drinks', quantity: '10 bottles'},
-            {name: 'candy', quantity: '4 bags'}];
+            {name: 'candy', quantity: '4 bags'},
+            {name: 'icecream', quantity: '10 boxes'}];
 
         var itemsBought = [];
 
