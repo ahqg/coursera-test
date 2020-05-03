@@ -9,7 +9,7 @@
 
     function FoundItemsDirective() {
         var ddo = {
-            templateUrl: '../menuItems.html',
+            templateUrl: 'menuItems.html',
             scope: {
                 items: '<',
                 onRemove: '&'
